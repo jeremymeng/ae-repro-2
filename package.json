@@ -1,0 +1,18 @@
+{
+  "name": "ae-model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "extract-api": "tsc -p . && api-extractor run --local",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.34.3",
+    "typescript": "^4.9.5"
+  }
+}
